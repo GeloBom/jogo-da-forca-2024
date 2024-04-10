@@ -16,6 +16,7 @@
             private void MostrarResultado()
             {
                 char input = char.ToUpper(Console.ReadKey().KeyChar);
+                Console.ReadLine();
                 Console.Clear();
 
                 if (!VerificarChute(input))

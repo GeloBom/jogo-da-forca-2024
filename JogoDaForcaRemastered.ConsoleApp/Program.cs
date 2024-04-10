@@ -14,7 +14,6 @@
             do
             {
                 jogo.Jogar();
-
             } while (jogo.Running());
         }
     }
