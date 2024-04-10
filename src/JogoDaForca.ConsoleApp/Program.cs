@@ -7,13 +7,6 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-
-            int quantidadeErros = 0;
-
-            bool jogadorAcertou = false;
-            bool jogadorEnforcou = false;
-
-
             Console.WriteLine("------------------------------------------------------------");
             Console.WriteLine("|Bem vindo ao Jogo da forca! | Academia Do Programador 2024|");
             Console.WriteLine("------------------------------------------------------------");
@@ -23,6 +16,11 @@ namespace ConsoleApp1
                 "MANGABA", "MANGA", "MARACUJÁ", "MURICI", "PEQUI", "PITANGA", "PITAYA", "SAPOTI",
                 "TANGERINA","UMBO", "UVA", "UVAIA" };
 
+            int quantidadeErros = 0;
+
+            bool jogadorAcertou = false;
+            bool jogadorEnforcou = false;
+            
             string palavraSecreta;
             char[] letrasPalavraSecreta;
 
